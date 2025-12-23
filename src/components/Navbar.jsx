@@ -10,15 +10,15 @@ export default function Navbar(props) {
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
-    <a className="navbar-brand" to="/">TextUtils</a>
+    <a className="navbar-brand" href="#">TextUtils</a>
     
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" to="/">Home</a>
+          <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" to="/about">About</a>
+          <a className="nav-link" href="#">About</a>
         </li>
         {/* <li className="nav-item">
           <a className="nav-link" href="#">Pricing</a>
